@@ -16,7 +16,11 @@
   ],
   "pi": {
     "extensions": [
-      "./extensions/*.ts"
+      "./extensions/*.ts",
+      "!./extensions/goal.ts",
+      "!./extensions/unified-edit.ts",
+      "!./extensions/uv.ts",
+      "!./extensions/prompt-editor.ts"
     ],
     "skills": [
       "./skills"
